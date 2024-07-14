@@ -29,7 +29,6 @@ This is a simple note-taking application built using HTML, CSS, JavaScript for t
     `npm start`
 
 -  Usage
-->  Open your browser and go to http://localhost:3000 to view the application.
 ->  Click on the "Add Note" button to create a new note.
 ->  Click on the trash icon to delete a note.
 ->  Click on the floppy disk icon to save changes to a note.
