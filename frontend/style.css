@@ -13,61 +13,6 @@ body {
     background-color: #f0f0f0;
 }
 
-#loginContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.loginForm {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-
-.loginForm h2 {
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.loginForm input[type="text"],
-.loginForm input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.loginForm button {
-    width: 100%;
-    background-color: #2d3436;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.loginForm button:hover {
-    background-color: #555;
-}
-
-.switchForm {
-    margin-top: 10px;
-    display: block;
-    font-size: 14px;
-}
-
-.hidden {
-    display: none;
-}
-
 #addBtn {
     position: fixed;
     top: 20px;
@@ -93,7 +38,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding-top: 20px;
-    background-color: #e0e0e0; /* Background color for the note app */
+    background-color: #1ba5c7; /* Background color for the note app */
 }
 
 .note {
@@ -135,4 +80,8 @@ body {
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+}
+
+.hidden {
+    display: none;
 }
